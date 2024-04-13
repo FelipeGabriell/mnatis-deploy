@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "MemeNatis: Unveiling the Crypto-Meme Mysteries",
+  "version": "1.1.0",
+  "lang": "en",
+  "short_name": "MemeNatis: Unveiling the Crypto-Meme Mysteries",
+  "description": "ur society is a meeting of brilliant minds, connected by a common passion for unveiling the unknown. Here, we dive deep into the mysteries of blockchain technology, deciphering codes, and anticipating trends that will shape the global financial future.",
+  "author": "theDev",
+  "scope": ".",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#1a33ff",
+  "background_color": "#1a33ff",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
