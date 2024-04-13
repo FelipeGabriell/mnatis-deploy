@@ -11,8 +11,8 @@
           .thing
             .occupation Deploy Website
             .location
-              a(href="https://memenatis.xyz" target="_blank") Memenatis
-                inline-svg(:src="svgNewWindow")
+              a(href="https://memenatis.xyz" target="_blank") Memenatis.xyz | 
+               // inline-svg(:src="svgNewWindow")
               | Memenatis
         li.item
           .date
@@ -20,8 +20,8 @@
           .thing
             .occupation Deploy Contract
             .location
-              a(href="https://ftmscan.com/" target="_blank") FTMScan.com
-                inline-svg(:src="svgNewWindow")
+              a(href="https://ftmscan.com/" target="_blank") FTMScan.com | 
+                //inline-svg(:src="svgNewWindow")
               | FantomScan
         li.item
           .date
@@ -29,8 +29,8 @@
           .thing
             .occupation Launch Token
             .location
-              a(href="https://spooky.fi" target="_blank") Spooky.fi
-                inline-svg(:src="svgNewWindow")
+              a(href="https://spooky.fi" target="_blank") Spooky.fi | 
+                //inline-svg(:src="svgNewWindow")
               | SpookySwap
         li.item
           .date
@@ -340,10 +340,7 @@
   </style>
   
   <script>
-  import InlineSvg from '@/components/utils/InlineSvg.vue';
-  
-  import svgNewWindow from '@/assets/images/new-window-mobile.svg'; 
-import skillsFuture from '../assets/js/content/skills-future';
+import InlineSvg from '@/components/utils/InlineSvg.vue';  
   
   export default {
     name: 'roadmap-content',

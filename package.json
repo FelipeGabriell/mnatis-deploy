@@ -34,6 +34,8 @@
   },
   "devDependencies": {
     "@prettier/plugin-pug": "^1.19.2",
+    "@vue/language-plugin-pug": "latest",
+    "@vue/runtime-dom": "^3.4.21",
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",
     "babel-eslint": "^7.1.1",
