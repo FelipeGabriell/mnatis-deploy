@@ -1,10 +1,1 @@
-export default function randomArrayElement(array, remove = false) {
-  const index = Math.floor(Math.random() * array.length);
-  const element = array[index];
-  if (remove) array.splice(index, 1);
-
-  return {
-    element: element,
-    left: array,
-  };
-}
+export default function randomArrayElement(a,b=!1){const c=Math.floor(Math.random()*a.length),d=a[c];return b&&a.splice(c,1),{element:d,left:a}}

@@ -1,7 +1,1 @@
-export default function rot13(string) {
-  return string.replace(/[a-zA-Z]/g, function (c) {
-    return String.fromCharCode(
-      (c <= 'Z' ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26
-    );
-  });
-}
+export default function rot13(a){return a.replace(/[a-zA-Z]/g,function(a){return String.fromCharCode(("Z">=a?90:122)>=(a=a.charCodeAt(0)+13)?a:a-26)})}
