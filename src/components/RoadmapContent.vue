@@ -31,7 +31,10 @@
             .location
               a(href="https://spooky.fi" target="_blank") Spooky.fi | 
                 //inline-svg(:src="svgNewWindow")
-              | SpookySwap
+              | SpookySwap &nbsp;&nbsp; - 
+              a(href="https://equalizer.exchange/" target="_blank") Equalizer.exchange | 
+                //inline-svg(:src="svgNewWindow")
+              | Equalizer
         li.item
           .date
             .skill-tag Future
